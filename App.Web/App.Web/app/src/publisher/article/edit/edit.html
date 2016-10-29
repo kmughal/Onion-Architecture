@@ -1,0 +1,40 @@
+﻿<div ng-controller="EditArticleCtrl as vm" ng-init="vm.activate()" style="background:white;padding:10px 10px">
+
+
+    <div ng-show="vm.articles.length ===0" class="alert alert-warning text-center">Empty Publications.</div>
+    <form class="form" ng-show="vm.articles.length > 0" novalidate name="frm">
+        
+        <div class="form-group">
+            <label for="title">Select "Title" to edit</label>
+            <select ng-model="vm.selectedItem" ng-options="t.title for t in vm.articles" ng-click="vm.mapDateEvent()" class="form-control">
+                <option value="">-- choose title --</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="publishdate">Publish Date</label>
+            <input id="pbdate1" name="publishdate" type="text" ng-model="vm.selectedItem.publishDate" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input name="title" type="text" ng-model="vm.selectedItem.title" class="form-control" required/>
+        </div>
+
+        <div class="form-group">
+            <label for="body">Body</label>
+            <textarea name="body" rows="8" ng-model="vm.selectedItem.body" class="form-control" required></textarea>            
+        </div>
+
+        <div class="form-group">
+            <input type="button" class="btn btn-primary pull-right" value="Save" ng-click="vm.save()" ng-disabled="frm.$invalid"/>
+            &nbsp;
+        </div>
+    </form>
+
+</div>
+
+
+
+
+</div>

@@ -1,0 +1,7 @@
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\obj\Debug\App.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\bin\Debug\App.Infrastructure.dll
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\bin\Debug\App.Infrastructure.pdb
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\bin\Debug\App.Core.dll
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\bin\Debug\App.Core.pdb
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\obj\Debug\App.Infrastructure.dll
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Infrastructure\App.Infrastructure\obj\Debug\App.Infrastructure.pdb

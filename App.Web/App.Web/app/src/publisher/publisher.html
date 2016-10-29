@@ -1,0 +1,20 @@
+﻿
+<div ng-controller="PublisherCtrl as vm" style="background:white;padding:10px 10px;border:1px solid #e6e6e6">
+    <nav class="navbar navbar-dark">
+        <div class="navbar-brand">Welcome {{vm.publisherName}}</div>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link active" ui-sref="publisher.add">Add Article </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" ui-sref="publisher.edit">Edit Article </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" ui-sref="publisher.view">View Article </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div ui-view></div>
+</div>
+

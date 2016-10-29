@@ -1,0 +1,43 @@
+﻿<form class="row" ng-controller="AddArticleCtrl as vm"  novalidate name="frm">   
+    <div class="col-lg-12 col-md-12">
+        <div class="help-block"></div>
+        <div class="help-block"></div>
+        <div class="help-block"></div>
+        <p class="alert alert-info text-center">
+            This page allows you to publish your articles.
+            These articles will be seen by all users and all users are
+            able to rate your article. Feel free to contact us if you think
+            you want to add any other information.
+        </p>
+        <div class="help-block"></div>
+        <div class="help-block"></div>
+        <div class="help-block"></div>
+        <div class="form" style="background:#f6f6f6">
+        
+            <div class="form-group">
+                <label for="date">Publish Date</label>
+                <input id="pbDate" name="date" type="text" ng-model="vm.new.publishDate" placeholder="please enter publis date..." class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input name="title" type="text" ng-model="vm.new.title" placeholder="please enter title..." class="form-control" required/>
+            </div>
+
+
+            <div class="form-group">
+                <label for="body">Body</label>
+                <textarea rows="8" name="body" placeholder="please enter body" ng-model="vm.new.body" class="form-control" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <input type="button" class="btn btn-primary pull-right" value="Save" ng-click="vm.save();" ng-disabled="frm.$invalid"/>                
+            </div>           
+            <div >
+             
+            </div>
+        </div>
+        
+    </div>
+
+</form>

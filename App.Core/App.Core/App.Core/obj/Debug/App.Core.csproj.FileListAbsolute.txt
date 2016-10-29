@@ -1,0 +1,5 @@
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Core\App.Core\App.Core\obj\Debug\App.Core.csprojResolveAssemblyReference.cache
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Core\App.Core\App.Core\bin\Debug\App.Core.dll
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Core\App.Core\App.Core\bin\Debug\App.Core.pdb
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Core\App.Core\App.Core\obj\Debug\App.Core.dll
+C:\Users\shahzadk.CLILIMITED\Desktop\Test\App1\App.Core\App.Core\App.Core\obj\Debug\App.Core.pdb

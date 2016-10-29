@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Interview Test App</title>
+    <meta lang="en-gb" />
+	<meta charset="utf-8" />
+    <base href="/index.html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Stylesheets-->
+
+    <link href="app/assets/content/bootstrap.css" rel="stylesheet" />
+    <link href="app/assets/content/toaster.css" rel="stylesheet" />
+    <!-- Stylesheets-->
+
+    <!-- Vendor libs -->
+    <script src="app/assets/js/moment.js"></script>
+    <script src="app/assets/js/jquery-1.9.1.js"></script>    
+    <script src="app/assets/js/calender.js"></script>
+    <script src="app/assets/js/bootstrap.js"></script>
+    <script src="app/assets/js/angular.js"></script>    
+    <script src="app/assets/js/angular-sanitize.js"></script>
+    <script src="app/assets/js/angular-animate.js"></script>
+    <script src="app/assets/js/toaster.js"></script>
+    <script src="app/assets/js/angular-ui-router.js"></script>
+    <!-- Vendor libs -->
+
+
+    <!-- App -->
+    <script src="app/src/main.js"></script>  
+    <script src="app/src/common/appConstants.js"></script>
+    <script src="app/src/common/appStatic.factory.js"></script>
+    <script src="app/src/login/login.http.js"></script>
+    <script src="app/src/login/login.controller.js"></script>
+    <script src="app/src/publisher/publisher.controller.js"></script>
+    <script src="app/src/publisher/article/add/addartcle.controller.js"></script>
+    <script src="app/src/publisher/article/add/add.http.js"></script>
+    <script src="app/src/publisher/article/edit/editarticle.controller.js"></script>
+    <script src="app/src/publisher/article/edit/edit.http.js"></script>
+    <script src="app/src/publisher/article/view/view.controller.js"></script>
+    <script src="app/src/publisher/article/view/view.http.js"></script>
+    <script src="app/src/components/rate.component.js"></script>
+    <script src="app/src/user/user.http.js"></script>
+    <script src="app/src/user/user.controller.js"></script>
+    <!-- App-->
+
+
+</head>
+<body style="background:#ddd;font-size:small;font-family:Calibri">    
+    <!-- We'll also add some navigation: -->
+    <toaster-container toaster-options="{'time-out': 1000}"></toaster-container>
+    <h2 style="color:maroon;padding:5px 5px;border-bottom:5px solid maroon">
+        Code Test Blog !      
+        <span id="container_action"></span>
+    </h2>
+    <div class="container" ui-view>
+
+    </div>
+</body>
+</html>

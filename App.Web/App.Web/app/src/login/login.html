@@ -1,0 +1,24 @@
+﻿
+<form ng-controller="LogonCtrl as vm" class="form" name="frm" novalidate>
+    <div class="row">
+
+        <div class="col-md-offset-3 col-md-6 " style="background:#f5f5f5;padding:10px 10px;border:1px solid #ddd;position:relative;top:170px">
+            <div class="form-group">
+                <label>Name</label>
+                <input name="name" type="text" placeholder="please enter your name" class="form-control" ng-model="vm.dm.name" required />
+            </div>
+
+            <div class="form-group">
+                <label>Are you a publisher / normal user ?</label>
+                <input type="radio" name="accounttype" ng-model="vm.dm.accountType" value="publisher" required /> Publisher
+                <input type="radio" name="accounttype" ng-model="vm.dm.accountType" value="user" required /> User
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary pull-right"
+                ng-disabled="frm.$invalid"
+                ng-click="vm.signIn()" />
+            </div>
+        </div>
+    </div>
+</form>
